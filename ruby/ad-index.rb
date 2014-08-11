@@ -19,7 +19,7 @@ require_relative 'ad-method-lib'        # Collection of methods used during the 
 require_relative 'ad-ascii-art'         # ASCII art images
 
 # pull in REXML for creating the XML character sheet
-require "rexml/document"
+#require "rexml/document"
 
 
 #---------------------------------------------------------------------------
