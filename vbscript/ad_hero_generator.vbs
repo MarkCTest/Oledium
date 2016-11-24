@@ -2,7 +2,7 @@
 
 ' ad_hero_generator.vbs
 
-' This file is generates the hero and creates / updates the Character Sheet
+' This file generates the hero and creates / updates the Character Sheet
 '-----------------------------------------------------------------------------
 Option Explicit
 
@@ -91,24 +91,3 @@ End Function 'CharacterSheetGeneration
 
 ' Call the Functions TEST TEST TEST TEST
 ' HeroGeneration 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
