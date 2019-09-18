@@ -2,10 +2,9 @@ package helpers;
 
 import java.util.Scanner;
 import characterManagement.CreatePlayer;
+import index.CoreValues;
 
 public class KeyCommands {
-    
-    public static String theNextAction;
     
     // Used to hold a player at a certain point
     public static void waitForEnterKey() {
@@ -19,8 +18,8 @@ public class KeyCommands {
         Scanner getNextAction = new Scanner(System.in);
         System.out.println("\n          What do you want to do next? ");
         System.out.println("          ----------------------------");
-        theNextAction = getNextAction.nextLine();
-        return theNextAction;
+        CoreValues.theNextAction = getNextAction.nextLine();
+        return CoreValues.theNextAction;
     }
 
 }
