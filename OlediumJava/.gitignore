@@ -1,0 +1,8 @@
+# Don’t track the contents of these folders
+build/
+nbproject/
+
+#Don’t track these individual files
+manifest.mf
+build.xml
+characterSheet.txt
