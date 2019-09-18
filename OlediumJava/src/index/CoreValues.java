@@ -5,7 +5,7 @@ public class CoreValues {
     public static String theNextAction;
     
     public static boolean returningPlayerStatus; // true = Played before, false = New Player
-    public static boolean playerCurrentState = true; //false = dead, true = alive
+    public static boolean isPlayerAlive = true; //false = dead, true = alive
 
     // Core Character Stats
     public static int playerMaxHp = 100;  // Hit points (HP)

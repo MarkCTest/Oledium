@@ -17,7 +17,7 @@ public class CreateUpdateCharacterSheet {
             f.format("%s", "                 o**{====>   <====}**o                 \n\n");
             f.format("%s", "####################   CHARACTER   ####################\n");
             f.format("%s", "#                                                      \n");
-            f.format("%s", "#  Character Name: " + CreatePlayer.thePlayerName + "  \n");
+            f.format("%s", "#  Character Name:" + CreatePlayer.thePlayerName + "   \n");
             f.format("%s", "#      Hit Points:                                     \n");
             f.format("%s", "#         Stamina:                                     \n");
             f.format("%s", "#        Strength:                                     \n");
@@ -38,8 +38,6 @@ public class CreateUpdateCharacterSheet {
             f.format("%s", "#######################################################\n");
             
             f.close();
-            
-            System.out.println("[LOG] Character Sheet generated");
             
         } catch(Exception e) {
             System.out.println("[LOG] Error with in createUpdateCharacterSheet()");

@@ -1,16 +1,16 @@
 package characterManagement;
 
 import static index.CoreValues.playerCurrentHp;
-import static index.CoreValues.playerCurrentState;
+import static index.CoreValues.isPlayerAlive;
 
 public class DeadOrAlive {
     
     // Check if the player is Dead or Alive
     public void isThePlayerAlive() {
         if (playerCurrentHp <= 0) {
-            playerCurrentState = false; //dead
+            isPlayerAlive = false; //dead
         } else {
-            playerCurrentState = true; // alive
+            isPlayerAlive = true; // alive
         }
     }
     

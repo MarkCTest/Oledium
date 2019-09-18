@@ -9,8 +9,8 @@ public class RunTheGame {
     
     public static void gameFlow() {
         
-        while (CoreValues.playerCurrentState == true) {
-                               
+        while (CoreValues.isPlayerAlive == true) {
+                                       
             whatDoYouWantToDoNext();
 
             // Case statement to direct the game given whatever theNextAction is
