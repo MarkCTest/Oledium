@@ -1,0 +1,23 @@
+package characterManagement;
+
+import static index.CoreValues.playerCurrentHp;
+import static index.CoreValues.playerCurrentState;
+
+public class DeadOrAlive {
+    
+    // Check if the player is Dead or Alive
+    public void isThePlayerAlive() {
+        if (playerCurrentHp <= 0) {
+            playerCurrentState = false; //dead
+        } else {
+            playerCurrentState = true; // alive
+        }
+    }
+    
+    public void resurectThePlayer() {
+        // TODO
+        // Use to bring a player character back from 0 points HP
+        // Spell, random, ...
+    }
+    
+}
