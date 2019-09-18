@@ -16,9 +16,11 @@ public class GameIndex {
         SplashScreens.splashTitle();
         SplashScreens.mountainImage();
         
+        // If there's a Character Sheet, the player played before
+        // If they 'lost' it, then we have to start a new game anyway
         CheckForExistingPlayer.hasThePlayerPlayedBefore();
         
-        // Cut the backstory if the player has played before
+        // Omit the backstory if the player has played before
         if (CoreValues.returningPlayerStatus == true) {
             System.out.println("Welcome back!");
             

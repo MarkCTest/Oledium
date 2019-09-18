@@ -2,7 +2,7 @@
 
 ####################   CHARACTER   ####################
 #                                                      
-#  Character Name: Aaaaa Bbbbbb  
+#  Character Name: Banana Man  
 #      Hit Points:                                     
 #         Stamina:                                     
 #        Strength:                                     

@@ -10,7 +10,9 @@ public class CreateUpdateCharacterSheet {
     public static void createUpdateTheCharacterSheet() {
         
         try {
-            Formatter f = new Formatter(CoreValues.locationOfCharacterSheet + "characterSheet.txt");
+            //Formatter f = new Formatter(CoreValues.locationOfCharacterSheet + "characterSheet.txt");
+            Formatter f = new Formatter("characterSheet.txt");
+            
             
             f.format("%s", "                 o**{====>   <====}**o                 \n\n");
             f.format("%s", "####################   CHARACTER   ####################\n");

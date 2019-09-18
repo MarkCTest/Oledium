@@ -2,7 +2,7 @@ package index;
 
 public class CoreValues {
     
-    public static String locationOfCharacterSheet = "/Users/mark.crowther/NetBeansProjects/HelloWorld/";
+    //public static String locationOfCharacterSheet = "../../";
     
     public static boolean returningPlayerStatus; // true = Played before, false = New Player
     public static boolean playerCurrentState; //false = dead, true = alive

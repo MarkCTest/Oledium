@@ -9,7 +9,7 @@ public class CheckForExistingPlayer {
     public static void hasThePlayerPlayedBefore() {
         
        // Load any existing file into tempFile 
-       File tempFile = new File("/Users/mark.crowther/NetBeansProjects/HelloWorld/characterSheet.txt");
+       File tempFile = new File("characterSheet.txt");
        
        // Check if a file was loaded into tempFile
         if (tempFile.isFile()) {
